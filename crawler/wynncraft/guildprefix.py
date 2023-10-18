@@ -22,7 +22,7 @@ for i in guildList:
         prefixData[guildData['prefix']] = i
         with open(path, 'w') as f:
             json.dump(prefixData, f)
-    
+        time.sleep(0.4)
 
     
 
